@@ -11,24 +11,15 @@ class Header extends React.Component {
 				<div className="header-frame__left">React Chat</div>
 				<div className="header-frame__right">
 					<Link to="/chats">
-						<ReactSVG
-							className="icon-svg"
-							src="/svg/interface/chats.svg"
-						/>
+						<ReactSVG className="icon-svg" src="/svg/interface/chats.svg" />
 					</Link>
-					<ReactSVG
-						className="icon-svg"
-						src="/svg/interface/login.svg"
-					/>
-					<ReactSVG
-						className="icon-svg"
-						src="/svg/interface/logout.svg"
-					/>
+					<ReactSVG className="icon-svg" src="/svg/interface/login.svg" />
+					<ReactSVG className="icon-svg" src="/svg/interface/logout.svg" />
 					<Link to="/profile">
-						<ReactSVG
-							className="icon-svg"
-							src="/svg/interface/account.svg"
-						/>
+						<ReactSVG className="icon-svg" src="/svg/interface/account.svg" />
+					</Link>
+					<Link to="/">
+						<ReactSVG className="icon-svg" src="/svg/interface/home.svg" />
 					</Link>
 				</div>
 			</div>
