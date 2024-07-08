@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.scss";
 
-import Header from "./Components/Header/Header.jsx";
 import Pages from "./Components/Pages/Pages.jsx";
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
 
 	return (
 		<div className="wrapper">
-			<Header />
 			<Pages />
 		</div>
 	);

@@ -1,16 +1,10 @@
-import React from 'react'
+import React from "react";
 
-import './chats.scss'
+import "./chats.scss";
 
-const BuildPage = () => (
-    <>
-      <div className="page-title">
-        Chats
-      </div>
-      <div className="page-body">
-        AAaaaaaaaa
-      </div>
-    </>
-  );
-  
-  export const ChatsPage = () => BuildPage();
+export const Chats = () => (
+	<>
+		<div className="page-title">Chats</div>
+		<div className="page-body">AAaaaaaaaa</div>
+	</>
+);

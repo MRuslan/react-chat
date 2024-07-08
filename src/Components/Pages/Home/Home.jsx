@@ -1,16 +1,10 @@
-import React from 'react'
+import React from "react";
 
-import './home.scss'
+import "./home.scss";
 
-const BuildPage = () => (
-    <>
-      <div className="page-title">
-        Home
-      </div>
-      <div className="page-body">
-        BODDYYDYYDYDYDYDYD
-      </div>
-    </>
-  );
-  
-  export const HomePage = () => BuildPage();
+export const Home = () => (
+	<>
+		<div className="page-title">Home</div>
+		<div className="page-body">BODDYYDYYDYDYDYDYD</div>
+	</>
+);

@@ -3,8 +3,7 @@ import React from 'react'
 
 import './pages.scss'
 
-import { HomePage } from './Home/Home';
-import { ChatsPage } from './Chats/Chats';
+import { PageHome, PageChats, PageProfile } from './Layout';
 
 class Pages extends React.Component {
 	render() {
@@ -12,8 +11,9 @@ class Pages extends React.Component {
 			<div className="wrapper-page">
 				<BrowserRouter>
 					<Routes>
-						<Route path="*" element={<HomePage />} />
-						<Route path="chats" element={<ChatsPage />} />
+						<Route path="/" element={<PageHome />} />
+						<Route path="/chats" element={<PageChats />} />
+						<Route path="/profile" element={<PageProfile />} />
 					</Routes>
 				</BrowserRouter>
 			</div>
